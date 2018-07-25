@@ -1,0 +1,213 @@
+/*Text formatting*/
+
+* {
+    margin: 0;
+    padding 0;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+body {
+    padding: 40px;
+    font-family: Georgia, times, serif;
+    color: #373737;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px; 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+h1 {
+    font-size: 3.6em; /*based on base font size 3.6 * base font (18px)*/
+}
+
+h2 {
+    font-size: 2.6em;
+    
+}
+
+h3 {
+    font-size: 1.6em;
+    letter-spacing: -1px;
+    text-indent: 80px;
+    line-height: 1.3px;
+}
+
+span {
+    text-decoration: line-through;
+        
+}
+
+em {
+    text-transform: uppercase;
+}
+
+strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*Border styles*/
+
+.border-box {
+    background: #fc3;
+    margin: 0 0 20px;
+    padding: 40px;
+    width: 320px;
+    text-align: center;
+    
+}
+
+#box1 { border: solid 1px black;}
+#box2 { border: dashed 1px black;}
+#box3 { border: dotted 1px black;}
+#box4 { border: double 10px black;}
+#box5 { border: solid 4px black;}
+#box6 { border: dashed 4px black;}
+#box7 { border: dotted 4px black;}
+#box8 { border: double 14px black;}
+
+
+/*Styling links*/
+
+#styling-links {
+    background: #333;
+}
+#styling-links #container {
+    background: white;
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/*unvisited*/
+a:link {
+    color: #f3c;
+}
+/*visited*/
+a:visited{
+    color: #f3c;
+}
+/*hover*/
+a:hover {
+    color: green;
+}
+/*active*/
+a:active {
+    color: black;
+}
+
+a#link-1:link {
+    background: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+a#link-1:hover {
+    background: #f3c;
+    color: white;
+}
+a#link-1:active {
+    color: white;
+}
+
+/*CSS FLOATS============================================================*/
+
+#floats {
+    background: #d41;
+}
+
+#floats #container {
+    background: white;
+    padding: 20px;
+}
+
+#brad1 {
+    float: right;
+    margin: 20px 0 10px 20px;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    float: right;
+}
+
+#main-column {
+    width: 250px;
+    float: left;
+    padding: 50px;
+    margin-bottom: 20px;
+    
+}
+
+#sidebar {
+    width: 140px;
+    margin-bottom: 20px;;
+    float: right;
+}
+
+#footer {
+    clear: both;
+    background: #333;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+#paragraph1 {
+    clear: right;
+}
+
+/*POSITIONING=================================================*/
+
+#positioning {
+    background: #1b4e5e;
+}
+
+#positioning #container {
+    background: white;
+    padding: 20px;
+}
+
+#position h2 {
+    font-size: 18px;
+}
+
+.box {
+    background: #db4e3e;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#relative {
+    position: relative;
+}
+
+#absolute {
+    position: absolute;
+}
+
+#fixed {
+    position: fixed;
+}
+
