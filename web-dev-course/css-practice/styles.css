@@ -1,0 +1,37 @@
+/*Styles for the descendant Selector lecture*/
+
+.primary-box {
+    background-color: white;
+    border: solid 10px #333;
+    padding: 20px;
+}
+
+
+.primary-box h2{
+    font-family: Helvetica, Arial, sans-serif; 
+}
+
+.secondary-box {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.secondary-box p {
+    
+    font-size: 14px;
+    font-style: normal;
+}
+
+.secondary-box p em {
+    color: #fc3fc3;
+}
+
+
+/* Styles for the grouping selectors
+grouping selector
+*/
+
+.primary-box, .secondary-box {
+    
+}
